@@ -1,47 +1,28 @@
-# 🤟 Sign Language Prediction
+# Sign Language Prediction 🤟
 
-A complete deep learning pipeline for real-time American Sign Language (ASL) alphabet recognition using a webcam and CNN-based classifier.
+A deep learning-based system for real-time American Sign Language (ASL) alphabet recognition using a webcam and Convolutional Neural Networks (CNN).
 
----
+## 🚀 Overview
 
-## 📄 Project Overview
+This project enables live ASL hand gesture recognition, translating static signs into text using a custom-trained CNN model. It includes tools for data collection, preprocessing, training, and real-time inference.
 
-This project captures sign language hand gestures, processes them into a dataset, trains a classifier, and performs real-time inference. It aims to assist in bridging communication gaps for the hearing and speech-impaired.
+## 📁 Repository Structure
 
----
-
-## 📂 Repository Structure
-
-- **collect_imgs.py** - Captures labeled gesture images via webcam.
-- **create_dataset.py** - Processes and prepares image data for training.
-- **train_classifier.py** - Trains a CNN model on the dataset.
-- **inference_classifier.py** - Runs real-time gesture recognition using the trained model.
-- **graph.py** - (Optional) Plots training graphs (accuracy/loss).
-- **model.p** - Saved trained model file.
-- **data.pickle** - Serialized labels and dataset.
-- **LICENSE** - MIT License for open-source use.
-
----
+- `collect_imgs.py` – Capture labeled gesture images via webcam.
+- `create_dataset.py` – Process and convert images into a structured dataset.
+- `train_classifier.py` – Train the CNN classifier.
+- `inference_classifier.py` – Perform real-time ASL prediction.
+- `graph.py` – Visualize training metrics (accuracy/loss).
+- `model.p` – Saved trained model.
+- `data.pickle` – Serialized labels and data features.
+- `LICENSE` – Project license information.
 
 ## 📘 Documentation
 
-Refer to the provided PDF (`sign-language-prediction.pdf`) for a complete explanation of the project pipeline, model architecture, data flow, and results.
+Detailed explanation of the pipeline, architecture, and methodology is available in the [`sign-language-prediction.pdf`](./sign-language-prediction.pdf).
 
----
+## 📄 License
 
-## ✅ Status
+This project is licensed under the [MIT License](./LICENSE) 📝
 
-Fully functional. Real-time gesture recognition via webcam is working and tested.
-
----
-
-## 📬 Contact
-
-For queries, feedback, or collaboration:  
-**your.email@example.com**
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
+Questions and doubts are welcomed here.
