@@ -19,7 +19,7 @@ This project enables live ASL hand gesture recognition, translating static signs
 
 ## 📘 Documentation
 
-Detailed explanation of the pipeline, architecture, and methodology is available in the [`sign-language-prediction.pdf`](./sign-language-prediction.pdf).
+Here is the report by me  ---->>>  [Project Report](https://github.com/vijayrajeshr/Sign-Language-Prediction/Project Report 09-Sept-2025.pdf)
 
 ## 📄 License
 
