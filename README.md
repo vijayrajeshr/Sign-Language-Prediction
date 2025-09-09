@@ -1,4 +1,6 @@
-# Sign Language Prediction 🤟
+
+# Sign Language Prediction 
+
 
 A deep learning-based system for real-time American Sign Language (ASL) alphabet recognition using a webcam and Convolutional Neural Networks (CNN).
 
